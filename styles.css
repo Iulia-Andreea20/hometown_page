@@ -1,0 +1,126 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/torshov.jpg);
+    background-size: cover;
+    height: 740px;
+
+}
+
+#town-name {
+    font-weight: bold;
+    color: white;
+    background-color: #1D3557;
+    width: 300px;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+#town-name:hover {
+    background-color: #4c6a95;
+}
+
+#town-description {
+    color: white;
+    background-color: #457B9D;
+    width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+
+
+.activities-section {
+    height: 343px;
+    background: #F1FAEE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.activities-elements {
+    width: 200px;
+}
+
+.round-img {
+    border-radius: 50px;
+}
+
+.small-image {
+    width: 100px;
+}
+
+#town-link {
+    color: white;
+    font-style: normal;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+#business-image {
+    width: 200px;
+    margin: 30px 15px 30px;
+}
+
+.business-card {
+    width: 450px;
+    height: 300px;
+    display: flex;
+    background: #A8DADC;
+    padding: 10px 10px 5px 0px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 6px 0px #1D3557;
+}
+
+#guide-section {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+#guide-text {
+    font-style: italic;
+}
+
+.bold-text {
+    font-style: bold;
+}
